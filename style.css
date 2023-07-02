@@ -1,0 +1,85 @@
+#header {
+  min-width: 300px;
+  max-width: 300px;
+  height: 100%;
+  z-index: 2;
+}
+
+section {
+  padding-left: 300px;
+}
+
+body {
+  font-family: "Geologica", sans-serif;
+  height: 200vh;
+  overflow-x: hidden;
+}
+
+.profile a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 50%;
+  transition: 0.5s;
+  background-color: #2a2727;
+}
+
+.profile a:hover {
+  background-color: blueviolet;
+}
+
+.overlay {
+  background: url(img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  filter: brightness(0.5);
+  position: relative;
+}
+
+.jumbo {
+  padding-left: 300px;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  margin-top: 10px;
+  width: 65px;
+  height: 4px;
+  background-color: black;
+}
+
+.bg-skills {
+  background-color: rgba(214, 192, 192, 0.351);
+}
+
+.card-head {
+  max-height: 140px;
+  overflow: hidden;
+}
+
+.service .card-body .card-link {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 30px;
+  color: black;
+  transition: 0.5s;
+}
+
+.service .card-body .card-link:hover {
+  background-color: black;
+  color: white;
+}
+
+.card {
+  transition: 0.4s;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.85);
+  transform: scale(1.05);
+}
